@@ -1,37 +1,45 @@
-# Projet brainhack School: Images10k
-
-## Contexte et objectif général
-Ce projet utilise le dataset Images10K, une base de données ouvertes de plus de 8 000 images naturelles annotées par des humains sur la plateforme Zooniverse. L'objetif est de fournir un ensemble d'images annotés (8,382 images naturalistes, 15 catégories sémantiques) pouvant servir à entrainement de modèles d'intelligence artificielle  pour la reconnaissance visuelle.
-
-## Mon objectif
-Ma contribution à ce projet concerne l'organisation et la visualisation des images ainsi qu'à leurs métadonnées.
+# Brainhack School Project: Images10K
+My name is Sara and I'm currently finishing my undergraduate degree in Cognitive Neuroscience and will soon begin a Master’s program in Psychology at the Université de Montréal, where I will be conducting research in the Montembeault Laboratory. As part of this Brainhack project, I am working with the Images10K dataset — a large collection of annotated naturalistic images. My goal is to deepen my understanding of data organization, management, and visualization, particularly through the development of interactive tools that make complex datasets more accessible. Through this project, I’m hoping to build a strong foundation in data handling and reproducible workflows that I can apply in my upcoming research projects.
 
 
-## Outils à apprendre
-- Utilisation de GitHub pour le versemment et le partage du projet/données.
-- Utilisation DataLad pour gérer le dataset et assurer une gestion reproductible des 
-  données.
-- Utilisation de script python  pour accéder aux images (code déja écrit par Lune)
--  Utilisation de MyST Markdown pour la création d'un site internet interactif 
-- Utilisation de Dash Bootsrap Components pour créer un carrousel interactif affichant les images ainsi que 
-  les informations pertinentes de celles-ci
-- Utilisation de Jupyter Notebook pour la visualisation des données
+
+## Project Background & Goal
+This project is based on the **Images10K** dataset — a publicly available database of over 8,000 naturalistic images, annotated by human participants on the [Zooniverse](https://www.zooniverse.org/) platform. The overall goal is to provide a well-organized and richly annotated image set (8,382 images, 15 semantic categories) that can be reused for training visual recognition models in AI and neuroscience.
+
+## My Objective
+My personal contribution focuses on:
+- Organizing the dataset
+- Visualizing the images and their associated metadata
+- Building an interactive site to explore the categories and image properties
+
+
+## Tools to learn
+- **GitHub** for version control and collaborative development of the project
+- **DataLad** to manage the dataset and ensure reproducible data access
+- **Python scripts** (some written by Lune) to access and filter the images
+- **Jupyter Notebooks** for data exploration and basic image visualization
+- **Dash Bootstrap Components** to build an interactive **image carousel**
+- **MyST Markdown** to structure an interactive website and write clear, reusable documentation
+- Gain deeper experience using Python on the terminal to manipulate files, run scripts, and debug visualizations
   
 
-##  Données
-Les données proviennent du projet **Images10k**, un dataset annoté  via la plateforme (https://www.zooniverse.org/). Les données incluent :
-- les images
-- les étiquettes 
-- la classification sémantique (vivant/non-vivant, naturel/artificiel)
-- les métadonnées liées aux comportements, tels que le nombre de réponses par image, 
-  le niveau d'accord, type de contributions, ect. 
+##  The Data
+The dataset includes:
+- Thousands of images stored in semantically organized folders
+- Associated labels (e.g., category, subcategory, path)
+- Semantic classification (living/non-living, natural/artificial)
+- Rich metadata such as number of participant responses, agreement levels, and annotation types
 
 
-##  Délivrence du projet 
-- Un dépôt GitHub 
-- Un notebook de visualisation des annotations
-- Un site internet interactif affichant les images triées par catégories, le code d'accès 
-  aux images et la visualisation graphique
-- Une documentation claire en Markdown
+##  Concepts to implement
+- **Carousel system**: I plan to build a Dash-based image carousel that displays multiple images by category (e.g., birds). Each image should show its metadata (e.g., category, label, agreement score).
+- **Semantic filtering**: I want to allow navigation by category — for example, being able to view all “animal” or “object” categories interactively.
+- **Interactive visualization**: Use `matplotlib`, `seaborn`, or `plotly` to generate summaries or agreement scores across categories.
+- **MyST article**: Eventually, I may structure this entire workflow and interface into a MyST-powered site for open access and documentation.
 
 
+##  Deliverables
+- A structured GitHub repository containing scripts and documentation
+- A Jupyter notebook to visualize and explore image annotations
+- A web interface with an interactive carousel organized by semantic category
+- Clear documentation using MyST Markdown
