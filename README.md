@@ -1,10 +1,9 @@
 # Brainhack School Project: Images10K
-My name is Sara and I'm currently finishing my undergraduate degree in Cognitive Neuroscience and will soon begin a Master’s program in Psychology at the Université de Montréal, where I will be conducting research in the Montembeault Laboratory. As part of this Brainhack project, I am working with the Images10K dataset — a large collection of annotated naturalistic images. My goal is to deepen my understanding of data organization, management, and visualization, particularly through the development of interactive tools that make complex datasets more accessible. Through this project, I’m hoping to build a strong foundation in data handling and reproducible workflows that I can apply in my upcoming research projects.
-
+My name is Sara and I'm currently finishing my undergraduate degree in Cognitive Neuroscience and will soon begin a Master’s program in Psychology at the University of Montreal, where I will be conducting research in the Montembeault Laboratory. As part of this Brainhack project, I am working with the Images10K dataset, a large collection of annotated naturalistic images. My goal is to deepen my understanding of data organization, management, and visualization, particularly through the development of interactive tools that make complex datasets more accessible. Through this project, I’m hoping to build a strong foundation in data handling and reproducible workflows that I can apply in my upcoming research projects.
 
 
 ## Project Background & Goal
-This project is based on the **Images10K** dataset — a publicly available database of over 8,000 naturalistic images, annotated by human participants on the [Zooniverse](https://www.zooniverse.org/) platform. The overall goal is to provide a well-organized and richly annotated image set (8,382 images, 15 semantic categories) that can be reused for training visual recognition models in AI and neuroscience.
+This project is based on the **Images10K** dataset — containing over 8,000 naturalistic images, annotated by human participants on the [Zooniverse](https://www.zooniverse.org/) platform. The overall goal is to provide a well-organized and richly annotated image set (8,382 images, 15 semantic categories) that can be reused for training visual recognition models in AI and neuroscience.
 
 ## My Objective
 My personal contribution focuses on:
@@ -32,13 +31,13 @@ The dataset includes:
 
 
 ##  Concepts to implement
-- **Carousel system**: I plan to build a Dash-based image carousel that displays multiple images by category (e.g., birds). Each image should show its metadata (e.g., category, label, agreement score).
+- **Carousel system**: I plan to build a Dash-based image carousel that displays multiple images by category. Each image should show its metadata (e.g., category, label, agreement score).
 - **Semantic filtering**: I want to allow navigation by category — for example, being able to view all “animal” or “object” categories interactively.
 - **Interactive visualization**: Use `matplotlib`, `seaborn`, or `plotly` to generate summaries or agreement scores across categories.
-- **MyST article**: Eventually, I may structure this entire workflow and interface into a MyST-powered site for open access and documentation.
+- **MyST article**: Eventually, I may structure this entire workflow and interface into a MyST for open access and documentation.
 
 
-##  Deliverables
+##  Delivery
 - A structured GitHub repository containing scripts and documentation
 - A Jupyter notebook to visualize and explore image annotations
 - A web interface with an interactive carousel organized by semantic category
