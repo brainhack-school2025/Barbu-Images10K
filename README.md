@@ -3,7 +3,7 @@ My name is Sara and I'm currently finishing my undergraduate degree in Cognitive
 
 
 ## Project Background & Goal
-Many studies in cognitive neuroscience still use really simplified or artificial images, like objects on plain backgrounds. But that can limit ecological validity and create a disconnect between what you see in the lab and real world perception. In contraste to that, Images10K provides naturalistic scenes, showing objects in their natural environments, which makes it easier to study how people understand visual scenes in real-world contexts. This approach fits with recent work that emphasizes the importance of using more realistic images in research (Hosu, Lin, Szirányi, & Saupe, 2019).
+Many studies in cognitive neuroscience still use really simplified or artificial images, like objects on plain backgrounds. But that can limit ecological validity and create a disconnect between what you see in the lab and real world perception. In contrast to that, Images10K provides naturalistic scenes, showing objects in their natural environments, which makes it easier to study how people understand visual scenes in real-world contexts. This approach fits with recent work that emphasizes the importance of using more realistic images in research (Hosu, Lin, Szirányi, & Saupe, 2019).
 
 This project is based on the **Images10K** dataset — containing over 8,000 naturalistic images, annotated by human participants on the [Zooniverse](https://www.zooniverse.org/) platform. The overall goal is to provide a well-organized and richly annotated image set (8,382 images, 15 semantic categories) that can be reused for training visual recognition models in AI and neuroscience.
 
