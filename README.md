@@ -19,7 +19,7 @@ My personal contribution focuses on:
 - **DataLad** to manage the dataset and ensure reproducible data access
 - **Python scripts** to access and filter the images
 - **Jupyter Notebooks** for data exploration and basic image visualization
-- **Dash Bootstrap Components** to build an interactive feathers, such as carrousel, dropdowns, etc
+- **Dash Bootstrap Components** to build interactive feathers, such as carrousel, dropdowns, etc
 - **MyST Markdown** to structure an interactive website and write clear, reusable documentation
 - Gain deeper experience using Python on the terminal to manipulate files, run scripts, and debug visualizations
   
@@ -29,7 +29,7 @@ The dataset includes:
 - Thousands of images stored in semantically organized folders
 - Associated labels (e.g., category, subcategory, path)
 - Semantic classification (living/non-living, natural/artificial)
-- Rich metadata such as number of participant responses, agreement levels,license types, etc
+- Rich metadata such as number of participant responses, agreement levels, license types, etc
 
 
 ##  Concepts to implement
@@ -42,7 +42,7 @@ The dataset includes:
 ##  Delivery
 - A structured GitHub repository containing scripts and documentation
 - A Jupyter notebook to visualize and explore image annotations
-- •	A web interface to explore images by category or with filters
+- A web interface to explore images by category or with filters
 - Clear documentation using MyST Markdown
   
 ### Link to view presentation
