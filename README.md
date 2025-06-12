@@ -1,5 +1,15 @@
-# Brainhack School Project: Images10K
-My name is Sara and I'm currently finishing my undergraduate degree in Cognitive Neuroscience and will soon begin a Master’s program in Psychology at the University of Montreal, where I will be conducting research in the Montembeault Laboratory. As part of this Brainhack project, I am working with the Images10K dataset, a large collection of annotated naturalistic images. My goal is to deepen my understanding of data organization, management, and visualization, particularly through the use of interactive tools that make complex datasets more accessible. Through this project, I’m hoping to build a strong foundation in data handling and reproducible workflows that I can apply in my upcoming research projects.
+# Brainhack School Project: Image10K
+My name is Sara, and I'm currently completing my undergraduate degree in Cognitive Neuroscience. I will begin a Master’s program in Psychology at the University of Montreal, where I’ll be conducting research in the Montembeault Laboratory.
+
+As part of Brainhack School, I created an interactive web-based showcase for the **Images10k dataset** — a large collection of behaviorally validated, naturalistic object images spanning over 15 semantic categories. The goal of my project was to explore how we can make rich, complex datasets more accessible and meaningful to both researchers and the public.
+
+Through the site, I present the dataset in an interactive and structured format:
+
+- Visitors can browse the image collection using carousel galleries
+- Explore scrollable previews of image-level metadata
+- View interactive visualizations and analyses drawn from the dataset
+
+This project allowed me to deepen my skills in data organization, visualization, and reproducible workflows, using tools like Jupyter Book, MyST Markdown, and Python. More broadly, it helped me engage with a growing challenge in cognitive neuroscience and AI — how to bridge ecological validity and computational modeling through large-scale, behaviorally grounded datasets.
 
 
 ## Project Background & Goal
