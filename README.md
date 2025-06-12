@@ -52,21 +52,38 @@ The dataset includes:
   - Source URLs and author attributions
 
 
-##  Concepts to implement
-- **Intercative carrousel**: I plan to build a Dash-based image carousel that displays multiple images by category. Each image should show its metadata (e.g., category, label, agreement score)
-- **Semantic filtering**: Users will be able to browse images interactively by semantic categories (e.g., “animal,” “object,” “living,” or “non-living”), using dropdowns or similar controls
-- **Interactive visualization**: Tools like `matplotlib`, `seaborn`, or `plotly` to generate visual summaries
-- **MyST article**: Eventually, the project will be documented and shared as an open-access website using MyST Markdown
+## Concepts Implemented
+- **Interactive image carousels:**  
+  Built using Dash and Dash Bootstrap Components to allow users to browse images by semantic category. Each carousel presents multiple images grouped by type (e.g., “animals,” “objects”), providing a visual overview of the dataset.
+  
+- **Semantic filtering:**  
+  Implemented category-based navigation using dropdown menus and structured folders, enabling users to explore subsets of the dataset (e.g., “animal,” “object,” “living,” “non-living”).
+  
+- **Interactive visualizations:**  
+  I used `pandas` and `IPython.display` to generate visual summaries of the metadata, including category distributions, agreement scores, and image sources.
+
+- **Scrollable metadata tables:**  
+  Created separate pages with scrollable tables for each semantic category. These tables include information such as image ID, label, source URL, license type, and behavioral annotation statistics.
+
+- **Integrated statistical plots:**  
+  Incorporated pre-existing plots generated using `matplotlib` and `seaborn` by other contributors working with the Images10K dataset. These include scatter plots and histograms that illustrate participant responses and highlight key behavioral and semantic patterns in the data.
+
+- **MyST Markdown and Jupyter Book:**  
+  Used to structure the site and documentation, combining notebooks and Markdown files into a clean, open-access, and interactive website.
 
 
 ##  Delivery
-- A structured GitHub repository containing scripts and documentation
-- A Jupyter notebook to visualize and explore image annotations
-- A web interface to explore images by category or with filters
-- Clear documentation using MyST Markdown
+- A structured GitHub repository with scripts, metadata, and documentation
+- Jupyter Notebooks for metadata preview and exploratory analysis
+- An interactive web interface built with Jupyter Book and MyST Markdown
+- Image carousels and scrollable metadata tables for category-based exploration
+- Downloadable metadata files hosted via Google Drive
   
 ### Link to view presentation
 [here](https://docs.google.com/presentation/d/1INdPO4mDrgXu64EogxEHda7Kbf1mZ-EG5l1t3ICp8UQ/edit?usp=sharing)  
+
+### Link to the to Image10k-compendium website
+
 
 ## References
 Hosu, V., Lin, H., Szirányi, T., & Saupe, D. (2019). KonIQ-10k: An ecologically valid database for deep learning of blind image quality assessment. arXiv preprint arXiv:1910.06180. https://arxiv.org/abs/1910.06180 
