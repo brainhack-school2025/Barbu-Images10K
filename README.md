@@ -18,28 +18,38 @@ Many studies in cognitive neuroscience still use really simplified or artificial
 This project is based on the **Images10K** dataset — containing over 8,000 naturalistic images, annotated by human participants on the [Zooniverse](https://www.zooniverse.org/) platform. The overall goal is to provide a well-organized and richly annotated image set (8,382 images, 15 semantic categories) that can be reused for training visual recognition models in AI and neuroscience.
 
 ## My Objective
-My personal contribution focuses on:
-- Organizing the dataset
-- Visualizing the images and their associated metadata
-- Building an interactive site to showcase the categories and image properties
+My personal contribution to this project focuses on creating a clear, structured, and interactive way to explore the Images10K dataset. Specifically, I worked on:
+
+- **Organizing the dataset:**  
+  I used **Datalad** to retrieve and manage the dataset in a reproducible way. I then cleaned and structured the image-level metadata to ensure consistency and ease of access. This involved preparing files for web-based display, grouping images into their semantic categories, and excluding any redundant or problematic entries to keep the dataset clean and reusable.
+
+- **Visualizing the images and their associated metadata:**  
+  I developed interactive components that allow users to explore the dataset visually. This includes scrollable metadata tables, filtered views, and category-wise displays that make the data more intuitive and engaging to work with.
+
+- **Building an interactive site to showcase the categories and image properties:**  
+  Using tools like **Jupyter Book**, **MyST Markdown**, and **Python**, I created a static web-based showcase that integrates image carousels, scrollable data previews, and exploratory visualizations. The goal was to present the dataset in a way that is both accessible and informative for researchers, students, and collaborators from different disciplines.
 
 
-## Tools to learn
-- **GitHub** for version control and collaborative development of the project
-- **DataLad** to manage the dataset and ensure reproducible data access
-- **Python scripts** to access and filter the images
-- **Jupyter Notebooks** for data exploration and basic image visualization
-- **Dash Bootstrap Components** to build interactive feathers, such as carrousel, dropdowns, etc
-- **MyST Markdown** to structure an interactive website and write clear, reusable documentation
-- Gain deeper experience using Python on the terminal to manipulate files, run scripts, and debug visualizations
-  
+## Tools I used
+- **GitHub** for version control and to organize the project in a clear, collaborative, and shareable format.
+- **DataLad** to retrieve and manage the dataset in a reproducible way.
+- **Python scripts** to filter images by category, convert metadata formats, and prepare image paths for display.
+- **Jupyter Notebooks** to explore the metadata, test visualizations, and generate previews of the dataset.
+- **Dash Bootstrap Components** to build interactive UI elements like carousels and dropdown menus for browsing images.
+- **MyST Markdown** to structure the content of the interactive website and document the project cleanly within Jupyter Book.
+- **Ubuntu terminal** to navigate the file system, run scripts, and better understand how to work with files and folders at the command line.
+
 
 ##  The Data
 The dataset includes:
-- Thousands of images stored in semantically organized folders
-- Associated labels (e.g., category, subcategory, path)
-- Semantic classification (living/non-living, natural/artificial)
-- Rich metadata such as number of participant responses, agreement levels, license types, etc
+- Over 8,000 naturalistic images, stored in semantically organized folders based on object categories
+- Annotated labels for each image, including category, subcategory, and file path
+- High-level semantic classifications (e.g., living vs. non-living, natural vs. artificial)
+- Rich image-level metadata such as:
+  - Number of participant annotations (via Zooniverse)
+  - Inter-participant agreement scores
+  - License information and usage permissions
+  - Source URLs and author attributions
 
 
 ##  Concepts to implement
