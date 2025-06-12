@@ -83,6 +83,8 @@ The dataset includes:
 [here](https://docs.google.com/presentation/d/1INdPO4mDrgXu64EogxEHda7Kbf1mZ-EG5l1t3ICp8UQ/edit?usp=sharing)  
 
 ### Link to the to Image10k-compendium website
+You can view the full interactive project site here:  
+[**Image10k Compendium Website**](https://sarabarbu.github.io/Images10k-compendium/)
 
 
 ## References
