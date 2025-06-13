@@ -1,7 +1,7 @@
 # Brainhack School Project: Image10K
 My name is Sara, and I'm currently completing my undergraduate degree in Cognitive Neuroscience. I will begin a Master’s program in Psychology at the University of Montreal, where I’ll be conducting research in the Montembeault Laboratory.
 
-As part of Brainhack School, I aim to create an interactive web-based showcase for the **Images10k dataset** — a large collection of behaviorally validated, naturalistic object images spanning over 15 semantic categories. The goal of my project was to explore how we can make rich, complex datasets more accessible and meaningful to both researchers and the public.
+As part of Brainhack School, I aim to create an interactive web-based showcase for the **Images10k dataset** — a large collection of behaviorally validated, naturalistic images spanning over 15 semantic categories. The goal of my project was to explore how we can make rich, complex datasets more accessible and meaningful to both researchers and the public.
 
 Through the site, I present the dataset in an interactive and structured format:
 
