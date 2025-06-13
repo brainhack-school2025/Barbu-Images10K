@@ -88,9 +88,7 @@ Right now, the project runs locally on my computer. I am currently working on ma
 [here](https://docs.google.com/presentation/d/1INdPO4mDrgXu64EogxEHda7Kbf1mZ-EG5l1t3ICp8UQ/edit?usp=sharing)  
 
 ### Link to the to Image10k-compendium website
-You can view the full interactive project site here: 
-
-Unfortunately, the site is currently only available locally :( I'm working on changing that!
+You can view the full interactive project site here: Unfortunately, the site is currently only available locally :( I'm working on changing that!
 [**Image10k Compendium Website**](https://sarabarbu.github.io/Images10k-compendium/)
 
 
