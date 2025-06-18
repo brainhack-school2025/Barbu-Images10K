@@ -87,9 +87,22 @@ Right now, the project runs locally on my computer. I am currently working on ma
 ### Link to view presentation
 [here](https://docs.google.com/presentation/d/1INdPO4mDrgXu64EogxEHda7Kbf1mZ-EG5l1t3ICp8UQ/edit?usp=sharing)  
 
-### Link to the to Image10k-compendium website
-You can view the full interactive project site here: Unfortunately, the site is currently only available locally :( I'm working on changing that!
+###  Link to the Image10k-Compendium Website  
+You can view the full project and explore the carousels here:  
 [**Image10k Compendium Website**](https://sarabarbu.github.io/Images10k-compendium/)
+
+ **Note**: The interactive carousels (Dash apps) **require Python to run**, so they won’t launch directly in the website view.
+
+###  To view the carousels interactively on the Website:
+**clone this repo**: [Images10k-compendium](https://github.com/SaraBarbu/Images10k-compendium)
+and sure to **run both notebooks**:  
+- `animated_being.ipynb`  
+- `Objects.ipynb`
+
+1. **Install the required packages**:
+   ```bash
+   pip install -r binder/requirements.txt
+
 
 
 ## References
