@@ -95,11 +95,11 @@ You can view the full project and explore the carousels here:
 
 ###  To view the carousels interactively on the Website:
 **clone this repo**: [Images10k-compendium](https://github.com/SaraBarbu/Images10k-compendium)
-and sure to **run both notebooks**:  
+and make sure to **run both notebooks**:  
 - `animated_being.ipynb`  
 - `Objects.ipynb`
 
-1. **Install the required packages**:
+**Install the required packages**:
    ```bash
    pip install -r binder/requirements.txt
 
