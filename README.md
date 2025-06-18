@@ -91,8 +91,9 @@ Right now, the project runs locally on my computer. I am currently working on ma
 You can view the full project and explore the carousels here:  
 [**Image10k Compendium Website**](https://sarabarbu.github.io/Images10k-compendium/)
 
- **Note:** Only a limited set of images is included on the website due to GitHub storage and bandwidth constraints.
- **Note:** The interactive carousels (Dash apps) **require Python to run**, so they won’t launch directly in the website view.
+ **Note** Only a limited set of images is included on the website due to GitHub storage and bandwidth constraints.
+ 
+ **Note** The interactive carousels (Dash apps) **require Python to run**, so they won’t launch directly in the website view.
 
 ###  To view the carousels interactively on the Website:
 
