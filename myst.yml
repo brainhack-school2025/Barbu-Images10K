@@ -1,0 +1,81 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: 'Images10k - an open, large, human-annotated dataset for biological and artificial visual processing'
+  subtitle: A template for reproducible preprints
+  thebe:
+    binder:
+      url: https://terrarium.evidencepub.io
+      repo: neurolibre/mystical-article # Production will override this.
+      ref: HEAD # Production will override this.
+  authors:
+    - name: Lune P Bellec
+      orcid: 0000-0002-9111-0699
+      affiliations: udem
+      corresponding: false
+      email: lune.bellec@umontreal.ca
+      equal_contributor: false
+      url: https://github.com/pbellec
+      github: lbellec
+      roles:
+        - Conceptualization
+        - Software
+        - Writing – original draft
+    - name: Sara Barbu
+      orcid: 0009-0009-1808-375X      
+      email: sara.barbu@umontreal.ca       
+      affiliations: udem
+      equal_contributor: false
+      github: SaraBarbu
+      roles:
+        - Software
+        - Writing – review & editing
+  affiliations:
+    - id: udem
+      institution: Université de Montréąl
+      ror: https://ror.org/0161xgx34
+      isni: 0000 0004 0435 3292
+      department: Psychology
+      address: 2900 Bd Édouard-Montpetit
+      city: Montreal
+      region: Quebec
+      country: Canada
+      postal_code: H3T 1J4
+      phone: (514) 343-6111
+  keywords:
+    - image stimuli
+    - annotation
+    - crowdsourcing
+  github: https://github.com/courtois-neuromod/image10k.paper
+  banner: static/banner.jpg
+  venue: Neurolibre #Production will override this.
+  subject: Living Preprint # Production will override this.
+  numbering:
+    headings: true
+  doi: 10.55458/neurolibre.xxxxx # Production will override this.
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  abbreviations:
+    MyST: Markedly Structured Markdown
+  bibliography:
+    - paper.bib
+  resources:
+    - content/intro.md
+    - content/Images10k_DataAnalysis.ipynb
+site:
+  template: book-theme # Or book-theme
+  options:
+    root: paper
+    favicon: static/favicon.ico # Production will override this for branding.
+    logo: static/logo.png # Production will override this for branding.
+html:
+  extra_css:
+    - _static/ custom.css
+config:
+  jupyter:
+    cell_tags:
+      remove_input: ["hide-input"]
+  execution:
+    execute_notebooks: "off"
