@@ -94,13 +94,16 @@ You can view the full project and explore the carousels here:
  **Note**: The interactive carousels (Dash apps) **require Python to run**, so they won’t launch directly in the website view.
 
 ###  To view the carousels interactively on the Website:
-**clone this repo**: [Images10k-compendium](https://github.com/SaraBarbu/Images10k-compendium)
-and make sure to **run both notebooks**:  
-- `animated_being.ipynb`  
-- `Objects.ipynb`
 
-**Install the required packages**:
-   pip install -r binder/requirements.txt
+1. **Clone this repository**:  
+   [Images10k-compendium](https://github.com/SaraBarbu/Images10k-compendium)
+
+2. **Install dependencies**:  
+   `pip install -r binder/requirements.txt`
+
+3. **Run both notebooks** in the `content/` folder:
+   - `animated_being.ipynb`
+   - `Objects.ipynb`
 
 
 ## References
