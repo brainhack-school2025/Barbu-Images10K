@@ -104,6 +104,5 @@ and make sure to **run both notebooks**:
    pip install -r binder/requirements.txt
 
 
-
-## References
+### References
 Hosu, V., Lin, H., Szirányi, T., & Saupe, D. (2019). KonIQ-10k: An ecologically valid database for deep learning of blind image quality assessment. arXiv preprint arXiv:1910.06180. https://arxiv.org/abs/1910.06180 
