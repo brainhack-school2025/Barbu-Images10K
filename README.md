@@ -24,7 +24,7 @@ My personal contribution to this project focuses on creating a clear, structured
   I used **Datalad** to retrieve and manage the dataset in a reproducible way. I then cleaned and structured the image-level metadata to ensure consistency and ease of access. This involved preparing files for web-based display, grouping images into their semantic categories, and excluding any redundant or problematic entries to keep the dataset clean and reusable.
 
 - **Visualizing the images and their associated metadata:**  
-  I developed interactive components that allow users to explore the dataset visually. This includes scrollable metadata tables, filtered views, and category-wise displays that make the data more intuitive and engaging to work with.
+  I developed interactive components that allow users to explore the dataset visually. This includes scrollable metadata tables, carousels, filtered views, and category-based displays that make the data more intuitive and engaging.
 
 - **Building an interactive site to showcase the categories and image properties:**  
   Using tools like **Jupyter Book**, **MyST Markdown**, and **Python**, I created a static web-based showcase that integrates image carousels, scrollable data previews, and exploratory visualizations. The goal was to present the dataset in a way that is both accessible and informative for researchers, students, and collaborators from different disciplines.
@@ -54,7 +54,7 @@ The dataset includes:
 
 ## Concepts Implemented
 - **Interactive image carousels:**  
-  Built using Dash and Dash Bootstrap Components to allow users to browse images by semantic category. Each carousel presents multiple images grouped by type (e.g., “animals,” “objects”), providing a visual overview of the dataset.
+  Built using Dash and Dash Bootstrap Components to allow users to browse images by semantic category. Each carousel presents multiple images grouped by type (e.g., “birds,” “tools”), providing a visual overview of the dataset.
   
 - **Semantic filtering:**  
   Implemented category-based navigation using dropdown menus and structured folders, enabling users to explore subsets of the dataset (e.g., “animal,” “object,” “living,” “non-living”).
