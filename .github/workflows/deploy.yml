@@ -30,14 +30,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          node-version: "18"
-      - name: Install MyST CLI
-        run: npm install -g mystmd
-      - name: Build MyST site
-        run: myst build --html
+          python-version: "3.10"
+      - name: Install Jupyter Book
+        run: pip install jupyter-book
+      - name: Build the Jupyter Book
+        run: jupyter-book build .
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
