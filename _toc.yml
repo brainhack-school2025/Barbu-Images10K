@@ -1,0 +1,8 @@
+format: jb-book
+root: paper
+chapters:
+  - file: content/intro.md
+  - file: content/animated_being.ipynb
+  - file: content/Objects.ipynb
+  - file: content/metadata_image10k.ipynb
+  - file: content/Images10k_DataAnalysis.ipynb
