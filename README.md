@@ -84,8 +84,8 @@ The dataset includes:
 Right now, the project runs locally on my computer. I am currently working on making the full webpage accessible online, so that others can explore the dataset and carousels without needing to run any code.
 
   
-### Link to view presentation
-[here](https://docs.google.com/presentation/d/1INdPO4mDrgXu64EogxEHda7Kbf1mZ-EG5l1t3ICp8UQ/edit?usp=sharing)  
+### Link to view google slide presentation
+[presentation](https://docs.google.com/presentation/d/1INdPO4mDrgXu64EogxEHda7Kbf1mZ-EG5l1t3ICp8UQ/edit?usp=sharing)  
 
 ###  Link to the Image10k-Compendium Website  
 You can view the full project and explore the carousels here:  
@@ -100,9 +100,8 @@ and make sure to **run both notebooks**:
 - `Objects.ipynb`
 
 **Install the required packages**:
-   ```bash
    pip install -r binder/requirements.txt
 
 
-### References
+## References
 Hosu, V., Lin, H., Szirányi, T., & Saupe, D. (2019). KonIQ-10k: An ecologically valid database for deep learning of blind image quality assessment. arXiv preprint arXiv:1910.06180. https://arxiv.org/abs/1910.06180 
